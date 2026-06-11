@@ -6,3 +6,4 @@ client = AsyncIOMotorClient(MONGO_URI)
 db = client["autodelete_bot"]
 
 groups = db["groups"]
+jobs = db["jobs"]
